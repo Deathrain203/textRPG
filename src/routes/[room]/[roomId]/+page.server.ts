@@ -18,7 +18,7 @@ export const load: PageServerLoad = async (event) => {
   const newSenderFr = newSenderSecond.replace("/", "");
 
   //This fetch will give the ID to the socket server
-  const response = await fetch("http://localhost:3000/session", {
+  const response = await fetch("https://rpg-express.onrender.com/session", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
