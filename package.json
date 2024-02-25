@@ -22,10 +22,13 @@
 	"type": "module",
 	"dependencies": {
 		"@lucia-auth/adapter-mongodb": "^1.0.2",
+		"easy-svelte-backblaze-image": "^0.0.3",
 		"lucia": "^3.0.1",
 		"mongodb": "^6.3.0",
 		"mongoose": "^8.1.2",
+		"openai": "^4.28.0",
 		"oslo": "^1.1.1",
+		"socket.io-client": "^4.7.4",
 		"svelte-easy-auth-form": "^1.0.2"
 	}
 }

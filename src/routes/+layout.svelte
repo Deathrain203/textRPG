@@ -9,4 +9,12 @@
         height:100vh;
         display:flex;
     }
+    :global(button){
+        cursor: pointer;
+    }
+
+    :global(a){
+        color:black;
+        text-decoration: none;
+    }
 </style>
