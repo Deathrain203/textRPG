@@ -44,14 +44,13 @@
   });
 
   socket.on("initMessage", (item) => {
-    messages.push(item);
-    messages = messages;
+  
+    messages = item.messageList;
     loader = true;
     characterPort = item.pfp
   });
   socket.on("initGPTMessage", (item) => {
-    messages.push(item);
-    messages = messages;
+    messages = item
     loader = false;
   });
 
